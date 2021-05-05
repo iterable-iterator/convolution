@@ -1,0 +1,49 @@
+[
+  {
+    "name": "_convolution",
+    "filePath": "src/_convolution.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * _convolution."
+      },
+      {
+        "lineNumber": 9,
+        "line": " *"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {Array} rKernel"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {Iterable} signal"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @return {IterableIterator}"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": "const _convolution = (rKernel, signal, {add, mul, zero}) => {"
+      }
+    ],
+    "codeParams": [
+      "rKernel",
+      "signal",
+      "*"
+    ],
+    "docParams": [
+      "rKernel",
+      "signal"
+    ]
+  }
+]
