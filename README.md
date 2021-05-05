@@ -4,12 +4,22 @@
 Iterable convolution for JavaScript.
 See [docs](https://iterable-iterator.github.io/convolution/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {convolution} from '@iterable-iterator/convolution';
+
+const moving_average = [1/4, 1/4, 1/4, 1/4];
+convolution(moving_average, signal); // ...
+
+const first_derivative = [1, -1];
+convolution(first_derivative, signal); // ...
+
+const second_derivative = [1, -2, 1];
+convolution(second_derivative, signal); // ...
+```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/convolution.svg)](https://raw.githubusercontent.com/iterable-iterator/convolution/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/convolution.svg)](https://www.npmjs.org/package/@iterable-iterator/convolution)
