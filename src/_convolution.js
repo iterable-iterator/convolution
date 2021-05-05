@@ -10,6 +10,7 @@ import {reduce} from '@iterable-iterator/reduce';
  *
  * @param {Array} rKernel
  * @param {Iterable} signal
+ * @param {{add: Function, mul: Function, zero: any}} options
  * @return {IterableIterator}
  */
 const _convolution = (rKernel, signal, {add, mul, zero}) => {
