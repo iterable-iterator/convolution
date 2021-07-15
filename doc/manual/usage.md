@@ -6,14 +6,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const convolution = require( '@iterable-iterator/convolution' ) ;
+const convolution = await import( '@iterable-iterator/convolution' ) ;
 // or
 import * as convolution from '@iterable-iterator/convolution' ;
 ```
