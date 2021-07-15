@@ -65,7 +65,7 @@
     "@iterable-iterator/list": "^0.0.2",
     "@iterable-iterator/map": "^0.1.0",
     "@iterable-iterator/reduce": "^0.0.1",
-    "@iterable-iterator/repeat": "^0.0.1",
+    "@iterable-iterator/repeat": "^1.0.0",
     "@iterable-iterator/reversed": "^0.0.2",
     "@iterable-iterator/window": "^0.0.3",
     "@iterable-iterator/zip": "^0.0.2"
