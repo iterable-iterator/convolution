@@ -2038,12 +2038,12 @@
   dependencies:
     "@failure-abstraction/error" "^5.0.5"
 
-"@iterable-iterator/reduce@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/reduce/-/reduce-0.0.1.tgz#35cf9b9c27afcdc1ebcd1a8d1f58162e8abd6290"
-  integrity sha512-Lg5HWX6oTajmd1OhFdFvQ8y+Sdqyi4vvwBfzm/mq+8BmQUa+ghnC5nkBs3M3ZcF96R1e4nn31yw4pp/DN+lUeQ==
+"@iterable-iterator/reduce@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/reduce/-/reduce-1.0.1.tgz#04bd02da8166a184dcf320576e482f4261df538d"
+  integrity sha512-/wwXupEhGb0cwVr4MDbuweD5tZ+wtd8fr8HkWwNre1lZn76Utu0um7nnhFpm9Mk3hifZzrH5dcKLhKB3VEuL/g==
   dependencies:
-    "@iterable-iterator/iter" "^0.0.2"
+    "@iterable-iterator/iter" "^1.0.1"
 
 "@iterable-iterator/repeat@^0.0.1":
   version "0.0.1"
