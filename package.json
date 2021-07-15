@@ -68,7 +68,7 @@
     "@iterable-iterator/repeat": "^1.0.0",
     "@iterable-iterator/reversed": "^1.0.0",
     "@iterable-iterator/window": "^0.0.3",
-    "@iterable-iterator/zip": "^0.0.2"
+    "@iterable-iterator/zip": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
