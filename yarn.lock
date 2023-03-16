@@ -2533,7 +2533,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@data-structure/deque@^9.0.0", "@data-structure/deque@^9.0.1":
+"@data-structure/deque@^9.0.1":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@data-structure/deque/-/deque-9.0.1.tgz#756f8a80d5bc3fe2be18a5739d051493397a6367"
   integrity sha512-/LSOEPmWGZ10OiKfje06GNDM/fzbY1ZfXyvZKr+/a79ZTlGoTwsQW1uPvtmQDtBzs2h2VbPjHho4zNSP5YH0Zg==
@@ -2609,12 +2609,12 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/iter/-/iter-1.0.1.tgz#11149acef0d28b689e0b998dc478113eda81871d"
   integrity sha512-/C/Ciq69we9C0wvqx0rOdnpXAoSW+UnyIV/ZQrUYDzmtguvUQ4HjiIPcU2Csdh705VS6TMkUhoaBHIGh44V3OA==
 
-"@iterable-iterator/list@^1.0.0", "@iterable-iterator/list@^1.0.1":
+"@iterable-iterator/list@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-1.0.1.tgz#e84fd841d7d58c2ad6d0c026f0612c8228dc97f5"
   integrity sha512-234a2cf0a0YhD1Ofb3F0xSjXDkqDK1xCiLnXoMUt/DWAt/odAvJToaxEFMemiKlAUvqF6E8MSi2v2UvlIOpBUA==
 
-"@iterable-iterator/map@^1.0.0", "@iterable-iterator/map@^1.0.1":
+"@iterable-iterator/map@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/map/-/map-1.0.1.tgz#7e4d82cb86877bf487e075347fde990ed21844da"
   integrity sha512-lUvX8/OCYRdof3eZii8ntJUvqW1MlL2ESkIcQj3cagajKVfBIBj058wE4ScrzQl6U2udMva/n2NwP70smdfZ+g==
@@ -2643,7 +2643,7 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/reversed/-/reversed-1.0.0.tgz#6e656396b4453e4650c081d571fa4ba7ab3134e8"
   integrity sha512-nCy0OINBy6h1dcj75twbIW0oA5KhJ7Aweif/8kdUdAR86e5gb/byedt0LL72cjHB75VRbQY06f9WxZc8d7uPYA==
 
-"@iterable-iterator/slice@1.0.2":
+"@iterable-iterator/slice@1.0.2", "@iterable-iterator/slice@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/slice/-/slice-1.0.2.tgz#c793dd32c0942281f5f85114c61de2a4b05c6396"
   integrity sha512-r6Z/RPZz4q8GAmqSDlHjTlHpFMDYmBlNQYZ4Rqp7xjn1ihsFVw+7WYH5ivPk11UbE/Inz1ZuBc01/vqT1F9U/g==
@@ -2652,25 +2652,16 @@
     "@iterable-iterator/consume" "^1.0.1"
     "@iterable-iterator/iter" "^1.0.1"
 
-"@iterable-iterator/slice@^1.0.0":
+"@iterable-iterator/window@^1.0.0":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/slice/-/slice-1.0.1.tgz#b6344d4e91379f6eab360a87ff304d0b3cc75ccf"
-  integrity sha512-vvlv9kBO5YIbB64WBjMtoa5s1tRe8OdKH5YGYJza7ctS5DgPWl+QRsoNbsxcecyxxut63RKQdXqp8DQM9P0v6A==
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/window/-/window-1.0.1.tgz#18e1bfbb968489d80e365365d26356cd53b157ad"
+  integrity sha512-hGteKNitNOrJiS6FIvykXYyBTHwOwgRH/ASUJ8LW7A+SBKnix/VYoAzq0P7kuW52XWNOqXUoeNuMScuVTA67pw==
   dependencies:
     "@data-structure/deque" "^9.0.1"
-    "@iterable-iterator/consume" "^1.0.1"
     "@iterable-iterator/iter" "^1.0.1"
-
-"@iterable-iterator/window@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/window/-/window-1.0.0.tgz#65ed93dfa840b1f1713f39124d47665c6987d639"
-  integrity sha512-DPOATMWTh/TpAnqY9f7E3wvcsg1ab/0ws3ASZ0yuYhIo2W/9xyvjzMZfQf2CFlMIOxLf9/QW3J82ltOtj+CZKQ==
-  dependencies:
-    "@data-structure/deque" "^9.0.0"
-    "@iterable-iterator/iter" "^1.0.1"
-    "@iterable-iterator/list" "^1.0.0"
-    "@iterable-iterator/map" "^1.0.0"
-    "@iterable-iterator/slice" "^1.0.0"
+    "@iterable-iterator/list" "^1.0.1"
+    "@iterable-iterator/map" "^1.0.1"
+    "@iterable-iterator/slice" "^1.0.1"
 
 "@iterable-iterator/zip@^1.0.1":
   version "1.0.1"
