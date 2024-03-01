@@ -23,7 +23,7 @@ convolution(second_derivative, signal); // ...
 
 [![License](https://img.shields.io/github/license/iterable-iterator/convolution.svg)](https://raw.githubusercontent.com/iterable-iterator/convolution/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/convolution.svg)](https://www.npmjs.org/package/@iterable-iterator/convolution)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/convolution/ci?event=push&label=tests)](https://github.com/iterable-iterator/convolution/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/iterable-iterator/convolution/ci.yml?branch=main&event=push&label=tests)](https://github.com/iterable-iterator/convolution/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/convolution.svg)](https://github.com/iterable-iterator/convolution/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/convolution.svg)](https://github.com/iterable-iterator/convolution/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/convolution.svg)](https://www.npmjs.org/package/@iterable-iterator/convolution)
