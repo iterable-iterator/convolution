@@ -1,9 +1,9 @@
-import {_window} from '@iterable-iterator/window';
 import {_chain} from '@iterable-iterator/chain';
-import {nrepeat} from '@iterable-iterator/repeat';
 import {map, starmap} from '@iterable-iterator/map';
-import {_zip2} from '@iterable-iterator/zip';
 import {reduce} from '@iterable-iterator/reduce';
+import {nrepeat} from '@iterable-iterator/repeat';
+import {_window} from '@iterable-iterator/window';
+import {_zip2} from '@iterable-iterator/zip';
 
 /**
  * _convolution.

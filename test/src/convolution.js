@@ -1,8 +1,9 @@
 import test from 'ava';
 
-import {list} from '@iterable-iterator/list';
 import {count} from '@iterable-iterator/count';
+import {list} from '@iterable-iterator/list';
 import {take} from '@iterable-iterator/slice';
+
 import {convolution} from '#module';
 
 test('https://betterexplained.com/articles/intuitive-convolution/#Part_1_Hospital_Analogy single-day treatment', (t) => {

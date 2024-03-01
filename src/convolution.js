@@ -1,6 +1,6 @@
+import {add, mul} from '@functional-abstraction/operator';
 import {list} from '@iterable-iterator/list';
 import {reversed} from '@iterable-iterator/reversed';
-import {add, mul} from '@functional-abstraction/operator';
 
 import _convolution from './_convolution.js';
 
